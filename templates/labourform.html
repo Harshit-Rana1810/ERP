@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Manager Form</title>
+</head>
+
+<body>
+
+    <h2>Labour</h2>
+    <form action="/dashboard/create_labour" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!--<label for="email">Email:</label><br>-->
+        <!--<input type="email" id="email" name="email" required><br><br>-->
+
+        <!--<label for="password">Password:</label><br>-->
+        <!--<input type="password" id="password" name="password" required><br><br>-->
+
+        <label for="area">Area:</label><br>
+        <input type="radio" name="options" value="noida"> noida
+        <input type="radio" name="options" value="greater noida"> greater noida
+        <input type="radio" name="options" value="delhi"> delhi
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
